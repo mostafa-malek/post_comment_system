@@ -1,0 +1,38 @@
+.table thead th,.table th, .table td{
+    text-align: center;
+}
+
+.dropdown-content {
+    display: none;
+  position: absolute;
+  z-index: 9999;
+  }
+  
+  .dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color:white;
+    background-color:#555;
+    width:150%;
+  }
+  .dropdown-content button {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color:white;
+    background-color:#555;
+    width:150%;
+  }
+  .dropdown-content button:hover {
+    background-color: #222;
+  }
+  .dropdown-content a:hover {
+    background-color: #222;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
